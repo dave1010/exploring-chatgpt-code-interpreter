@@ -56,6 +56,7 @@ CI comes with lots of stuff out the box but not everything.
 
 Some of these are AppImage files
 
+* [Deno](https://github.com/denoland/deno/releases) (JavaScript runtime, like Node))
 * [ImageMagick](https://imagemagick.org/archive/binaries/) (magick)
 * [PHP](https://github.com/scorninpc/php-gtk3/releases) (actually PHP-GTK3 but I haven't found another version that works yet)
 * [pocketsphinx](https://pypi.org/project/pocketsphinx/#files) - speech recognition (requires [sounddevice](https://pypi.org/project/sounddevice/#files) )
