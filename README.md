@@ -15,6 +15,7 @@
 
 * Home `/home/sandbox`
 * User `sandbox`
+* amd64
 
 ## Hard limitations
 
@@ -34,6 +35,8 @@ CI thinks it's just for Python but you can get it to do much more...
 * Run local servers, like web servers (opening a network socket, binding it to a local address and port, and accepting incoming connections.)
 * Execute uploaded files
 
+These are left as an exercise for the reader.
+
 # What's available
 
 * Barebones Ubuntu packages are installed. Use `dpkg -l` to list them
@@ -49,7 +52,14 @@ CI thinks it's just for Python but you can get it to do much more...
 
 # Installing other software
 
-(TODO)
+CI comes with lots of stuff out the box but not everything.
+
+Some of these are AppImage files
+
+* [ImageMagick](https://imagemagick.org/archive/binaries/) (magick)
+* [PHP](https://github.com/scorninpc/php-gtk3/releases) (actually PHP-GTK3 but I haven't found another version that works yet)
+* [pocketsphinx](https://pypi.org/project/pocketsphinx/#files) - speech recognition (requires [sounddevice](https://pypi.org/project/sounddevice/#files) )
+
 
 # Interesting things it can do out the box
 
