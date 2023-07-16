@@ -60,9 +60,9 @@ See [dpkg list](dpkg_output.txt) for more.
 
 # Installing other software
 
-CI comes with lots of stuff out the box but not everything.
+CI comes with lots of stuff out the box but not everything. You might need to install other software.
 
-Some of these are AppImage files
+Here's a few handy things I've got working. Some of these are AppImage files
 
 * [Deno](https://github.com/denoland/deno/releases) (JavaScript runtime, like Node))
 * [ImageMagick](https://imagemagick.org/archive/binaries/) (magick)
