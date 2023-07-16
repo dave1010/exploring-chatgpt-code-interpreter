@@ -51,6 +51,8 @@ These are left as an exercise for the reader.
   * Programming and building: `binutils`, `build-essential`, `cpp`, `g++`, `perl`,
   * Python: `python3`, `python3.8`, `python3-requests`
   * Networking, servers, clients: `curl`, `libmysqlclient21`, `mysql-common`, `openssl`
+ 
+See [dpkg list](dpkg_output.txt) for more. 
 
 
 * Commands available:
