@@ -44,10 +44,12 @@ These are left as an exercise for the reader.
   * System: `bash`, 
   * Text: `diffutils`, `graphviz`, `patch`, `poppler-utils`, `pstotext`, `vim`
   * Media:  `espeak`, `ffmpeg`, `lame`, `sox`, `tesseract-ocr`
-  * Programming and building: `binutils`, `build-essential`, `cpp`, `g++`, `perl`, `python3.8`,
+  * Programming and building: `binutils`, `build-essential`, `cpp`, `g++`, `perl`,
   * Python: `python3`, `python3.8`, `python3-requests`
   * Networking, servers, clients: `curl`, `libmysqlclient21`, `mysql-common`, `openssl`
-* Commands:
+
+
+* Commands available:
   * `python3`
 
 # Installing other software
@@ -59,7 +61,7 @@ Some of these are AppImage files
 * [Deno](https://github.com/denoland/deno/releases) (JavaScript runtime, like Node))
 * [ImageMagick](https://imagemagick.org/archive/binaries/) (magick)
 * [PHP](https://github.com/scorninpc/php-gtk3/releases) (actually PHP-GTK3 but I haven't found another version that works yet)
-* [Python](https://github.com/niess/python-appimage/releases) - CI comes with Python 3.8. Some packages only work with layer verions like 3.11
+* [Python 3.11](https://github.com/niess/python-appimage/releases) - CI comes with Python 3.8. Some packages only work with later verions like 3.11
 * [pocketsphinx](https://pypi.org/project/pocketsphinx/#files) - speech recognition (requires [sounddevice](https://pypi.org/project/sounddevice/#files) )
 
 
