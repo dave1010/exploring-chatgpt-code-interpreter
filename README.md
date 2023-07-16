@@ -60,7 +60,7 @@ See [dpkg list](dpkg_output.txt) for more.
 
 # Installing other software
 
-CI comes with lots of stuff out the box but not everything. You might need to install other software.
+CI comes with lots of stuff out the box but not everything. You might need to run other software.
 
 Here's a few handy things I've got working. Some of these are AppImage files
 
