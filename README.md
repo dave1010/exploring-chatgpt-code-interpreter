@@ -72,4 +72,7 @@ Some of these are AppImage files
 
 # Tips for working on code bases
 
-(TODO)
+* Upload a zip file
+* You can get CI to give you chabged fikes or zip up the whole code base again
+* git isnt available and i haven't got it working but dulwich is easy to get working for basic diffs and commits
+* CI can also diff an original and modified code base and give you a patch file to download ana apply
