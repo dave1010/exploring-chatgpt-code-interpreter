@@ -2,6 +2,10 @@
 
 *Exploring what's possible with the ChatGPT Code Interpreter and how to use it effectively.*
 
+CI can do basically anything that's possible on a Linux box without root or internet access. With some creativity, almost any software can be ran.
+
+If you want internet access or root permissions then check out [Pandora](https://github.com/dave1010/pandora), an open source ChatGPT plugin I made that is like an unrestricted CI.
+
 # General info environment and limitations
 
 ## Basics
