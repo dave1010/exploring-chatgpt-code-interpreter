@@ -74,7 +74,13 @@ Here's a few handy things I've got working. Some of these are AppImage files
 # Interesting things it can do out the box
 
 * Make PowerPoint files
+* Read PDFs
+* Edit images and videos
+* Display static images in the chat
+* Generate interactive visualisations (HTML download)
 * OCR
+* Run machine learning models
+* Clean up and analyse data
 
 # Tips for working on code bases
 
