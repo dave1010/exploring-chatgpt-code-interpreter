@@ -17,9 +17,9 @@ If you want internet access or root permissions then check out [Pandora](https:/
 
 ## Environment
 
-* Home `/home/sandbox`
+* Home amd current working dir: `/home/sandbox`. It doesn't know this unless you ask it to run `pwd`. Sometimes it thinks files are in `/mnt/data` when they're not.
 * User `sandbox`
-* amd64
+* Arch: `amd64`
 
 ## Hard limitations
 
@@ -35,7 +35,7 @@ CI thinks it's just for Python but you can get it to do much more...
 
 * It wants to just let you download files in `/mnt/data` but it can link to any file on the system readable by the user.
   This isn't particularly beneficial, as you can just copy a file there anyway.
-* Run sub processes. CI really thinks it's not able to do this.
+* Run sub processes and shell commands. CI really thinks it's not able to do this.
 * Run local servers, like web servers (opening a network socket, binding it to a local address and port, and accepting incoming connections.)
 * Execute uploaded files
 
@@ -54,9 +54,7 @@ These are left as an exercise for the reader.
  
 See [dpkg list](dpkg_output.txt) for more. 
 
-
-* Commands available:
-  * `python3`
+Note, Python is in the path as `python3`. CI sometimes gets this wrong and then thinks it cant run it.
 
 # Installing other software
 
@@ -85,6 +83,6 @@ Here's a few handy things I've got working. Some of these are AppImage files
 # Tips for working on code bases
 
 * Upload a zip file
-* You can get CI to give you chabged fikes or zip up the whole code base again
-* git isnt available and i haven't got it working but dulwich is easy to get working for basic diffs and commits
-* CI can also diff an original and modified code base and give you a patch file to download ana apply
+* You can get CI to give you changed files or zip up the whole code base again
+* git isn't available and I haven't got it working. Dulwich, a Python library for git, is easy to get working for basic diffs and commits
+* CI can also diff an original and modified code base and give you a patch file to download and apply
