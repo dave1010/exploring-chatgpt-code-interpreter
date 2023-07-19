@@ -6,6 +6,11 @@ CI can do basically anything that's possible on a Linux box without root or inte
 
 If you want internet access or root permissions then check out [Pandora](https://github.com/dave1010/pandora), an open source ChatGPT plugin I made that is like an unrestricted CI.
 
+# 1 minute guide
+
+1. Go to https://chat.openai.com/?model=gpt-4-code-interpreter (sign up for Pro if you haven't already)
+2. Copy and paste this prompt: `List various cool and helpful things code interpreter can do. Then pick a couple and show me.`
+
 # General info environment and limitations
 
 ## Basics
