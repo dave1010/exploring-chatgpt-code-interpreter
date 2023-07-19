@@ -96,14 +96,14 @@ Here's a few handy things I've got working. Some of these are AppImage files
 
 ## ChatGPT plugins
 
-Currently need Pro but then you get unlimited use.
+Currently need Pro but then you get unlimited use. You might be able to get them working with [OpenPlugin](https://github.com/CakeCrusher/openplugin/tree/main).
 
 * **[Pandora](https://github.com/dave1010/pandora)** - ipen source and runs in a local Docker container. Has internet access and can install packages. (Made by me)
 * **Noteable** - Jupyter notebook, similar to ChatGPT. Has internet access and persists files.
 
 ## Using your own GPT API key
 
-Very cheap to try but keep an eye on your costs
+Very cheap to try but keep an eye on your costs. You could also point these to a local LLM (Llama, Falcon, StarCoder, etc) with [LocalAI](https://github.com/go-skynet/LocalAI).
 
 * **[GPT-Code UI](https://github.com/ricklamers/gpt-code-ui)**
 
