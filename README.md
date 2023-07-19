@@ -86,3 +86,25 @@ Here's a few handy things I've got working. Some of these are AppImage files
 * You can get CI to give you changed files or zip up the whole code base again
 * git isn't available and I haven't got it working. Dulwich, a Python library for git, is easy to get working for basic diffs and commits
 * CI can also diff an original and modified code base and give you a patch file to download and apply
+
+# Other guides
+
+* [Mastering ChatGPT’s Code Interpreter: Comprehensive List of Python Packages in ChatGPT’s Code Interpreter](https://wfhbrian.com/mastering-chatgpts-code-interpreter-list-of-python-packages/)
+
+
+# Alternatives
+
+## ChatGPT plugins
+
+Currently need Pro but then you get unlimited use.
+
+* **[Pandora](https://github.com/dave1010/pandora)** - ipen source and runs in a local Docker container. Has internet access and can install packages. (Made by me)
+* **Noteable** - Jupyter notebook, similar to ChatGPT. Has internet access and persists files.
+
+## Using your own GPT API key
+
+Very cheap to try but keep an eye on your costs
+
+* **[GPT-Code UI](https://github.com/ricklamers/gpt-code-ui)**
+
+## Third party
