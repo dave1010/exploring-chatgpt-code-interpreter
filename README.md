@@ -52,7 +52,7 @@ These are left as an exercise for the reader.
   * Python: `python3`, `python3.8`, `python3-requests`
   * Networking, servers, clients: `curl`, `libmysqlclient21`, `mysql-common`, `openssl`
  
-See [dpkg list](dpkg_output.txt) for more. 
+See [dpkg list](dpkg_output.txt) and [pip list](pip_packages_list.txt) for more. 
 
 Note, Python is in the path as `python3`. CI sometimes gets this wrong and then thinks it cant run it.
 
