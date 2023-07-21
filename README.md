@@ -83,7 +83,9 @@ Note, Python is in the path as `python3`. CI sometimes gets this wrong and then 
 
 CI comes with lots of stuff out the box but not everything. You might need to run other software.
 
-Here's a few handy things I've got working. Some of these are AppImage files
+CI doesn't give you root access but you can still run statically linked binaries and self contained executables.
+
+Here's a few handy things I've got working.
 
 * [Deno](https://github.com/denoland/deno/releases) (JavaScript runtime, like Node))
 * [ImageMagick](https://imagemagick.org/archive/binaries/) (magick)
@@ -91,6 +93,23 @@ Here's a few handy things I've got working. Some of these are AppImage files
 * [Python 3.11](https://github.com/niess/python-appimage/releases) - CI comes with Python 3.8. Some packages only work with later verions like 3.11
 * [pocketsphinx](https://pypi.org/project/pocketsphinx/#files) - speech recognition (requires [sounddevice](https://pypi.org/project/sounddevice/#files) )
 
+## Running AppImages
+
+AppImages are self contained packages. They're designed to run with FUSE, which CI doesn't support. But they have a fallback where the files can be
+extracted, resulting in a binary you can run.
+
+Download the AppImage file and use a prompt like
+
+    make this executable, then run it with --appimage-extract flag to extract the files, then run squashfs-root/AppRun`
+
+
+## Installing new Python packages
+
+1. Find the package on https://pypi.org/
+2. Download a file, ideally one that mentions `any` or `amd64`
+3. Upload it to CI and tell it to use it
+4. It may depend on other packages, in which case go to step 1
+   * If you're going round in circles, you get the packages locally with virtualenv and upload them
 
 # 🎉 Interesting things it can do out the box
 
