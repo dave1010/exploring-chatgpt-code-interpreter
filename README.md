@@ -138,19 +138,22 @@ Here's a few handy things I've got working. Some of these are AppImage files
 * [Mastering ChatGPT’s Code Interpreter: Comprehensive List of Python Packages in ChatGPT’s Code Interpreter](https://wfhbrian.com/mastering-chatgpts-code-interpreter-list-of-python-packages/)
 
 
-# Alternatives
+# Comparison and Alternatives to Code Interpreter
+
+
+|  Name                                             | ChatGPT Plugin | Stand alone | Has Internet Access | Root | Install packages? | Open Source | Notes    |
+|------------|------------|---------|------|---------|--------|-----------|---|
+| Code Interpreter                                              | ✅|❌| ❌  | ❌ | ~ | ❌  | Can't be ran with any other ChatGPT plugins |
+| [Pandora](https://github.com/dave1010/pandora)                | ✅|❌| ✅  | ✅ | ✅  | ✅  | Runs in a local Docker container, can install packages. Made by me.  |
+| [Noteable](https://noteable.io/chatgpt-plugin-for-notebook/)  | ✅|❌| ✅  | ❌ | ✅  | ❌  | Jupyter notebook, similar to ChatGPT, persists files    |
+| [GPT-Code UI](https://github.com/ricklamers/gpt-code-ui)      | ❌|✅| ?   | ? | ?  | ✅  |        |
 
 ## ChatGPT plugins
 
-Currently need Pro but then you get unlimited use. You might be able to get them working with [OpenPlugin](https://github.com/CakeCrusher/openplugin/tree/main).
+* ChatGPT plugins require a Pro subscription for full access.
+* You might be able to get them working with [OpenPlugin](https://github.com/CakeCrusher/openplugin/tree/main).
 
-* **[Pandora](https://github.com/dave1010/pandora)** - ipen source and runs in a local Docker container. Has internet access and can install packages. (Made by me)
-* **Noteable** - Jupyter notebook, similar to ChatGPT. Has internet access and persists files.
+## OpenAI API
 
-## Using your own GPT API key
-
-Very cheap to try but keep an eye on your costs. You could also point these to a local LLM (Llama, Falcon, StarCoder, etc) with [LocalAI](https://github.com/go-skynet/LocalAI).
-
-* **[GPT-Code UI](https://github.com/ricklamers/gpt-code-ui)**
-
-## Third party
+* Using your own API key can be very cost-effective but monitor your expenses closely.
+* You could also point these to a local LLM (Llama, Falcon, StarCoder, etc) with [LocalAI](https://github.com/go-skynet/LocalAI).
