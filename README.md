@@ -15,6 +15,7 @@ If you want internet access or root permissions then check out [Pandora](https:/
 
 <details>
   <summary>Enabling ChatGPT Code Interpreter</summary>
+  
   | Click on your name on the bottom left, then Settings & Beta | then Beta features, then enable Code Interpreter |
 | --- | --- |
 | ![menu](images/menu.png) | ![settings](images/settings.png) |
