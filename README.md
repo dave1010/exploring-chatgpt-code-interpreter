@@ -33,7 +33,7 @@ If you want internet access or root permissions then check out [Pandora](https:/
 
 ## Environment
 
-* Home amd current working dir: `/home/sandbox`. It doesn't know this unless you ask it to run `pwd`. Sometimes it thinks files are in `/mnt/data` when they're not.
+* Current working dir: `/home/sandbox`. It doesn't know this unless you ask it to run `pwd`. Sometimes it thinks files are in `/mnt/data` when they're not.
 * User `sandbox`
 * Arch: `amd64`
 
