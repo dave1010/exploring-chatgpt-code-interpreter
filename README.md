@@ -14,7 +14,7 @@ If you want internet access or root permissions then check out [Pandora](https:/
 
 
 <details>
-  <summary>Enabling ChatGPT Code Interpreter</summary>
+  <summary>⤵️ Enabling ChatGPT Code Interpreter ⤵️</summary>
   
   | Click on your name on the bottom left, then Settings & Beta | then Beta features, then enable Code Interpreter |
 | --- | --- |
@@ -95,6 +95,36 @@ Here's a few handy things I've got working. Some of these are AppImage files
 * OCR
 * Run machine learning models
 * Clean up and analyse data
+
+
+<details>
+  <summary>⤵️ Image and chart generation examples ⤵️</summary>
+  
+| Title                     | Image                                                                           |
+|---------------------------|---------------------------------------------------------------------------------|
+| 3D Plot                   | ![3D Plot](images/image-generation/3d-plot.png)                                 |
+| Box Plot                  | ![Box Plot](images/image-generation/box-plot.png)                               |
+| Cluster Map               | ![Cluster Map](images/image-generation/cluster-map.png)                         |
+| Confusion Matrix          | ![Confusion Matrix](images/image-generation/confusion-matrix.png)               |
+| Histogram                 | ![Histogram](images/image-generation/histogram.png)                             |
+| Line Plot                 | ![Line Plot](images/image-generation/line-plot.png)                             |
+| Mandleprod                | ![Mandleprod](images/image-generation/mandleprod.png)                           |
+| Map                       | ![Map](images/image-generation/map.png)                                         |
+| Network Graph             | ![Network Graph](images/image-generation/network-graph.png)                     |
+| Radar Chart               | ![Radar Chart](images/image-generation/radar-chart.png)                         |
+| Reaction Diffusion System | ![Reaction Diffusion System](images/image-generation/reaction-diffusion-system.png) |
+| Scatter Plots             | ![Scatter Plots](images/image-generation/scatter-plots.png)                     |
+| Scatterplot Matrix        | ![Scatterplot Matrix](images/image-generation/scatterplot-matrix.png)           |
+| Word Cloud                | ![Word Cloud](images/image-generation/word-cloud.png)                           |
+
+</details>
+
+
+
+
+
+
+
 
 # Tips for working on code bases
 
