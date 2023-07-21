@@ -125,19 +125,21 @@ Download the AppImage file and use a prompt like
 * Run machine learning models
 * Clean up and analyse data
 
+| 3D Plot    |   Mandlebrot | Game of Life |
+|---------------------------|---------------------------------------------------------------------------------|---|
+| ![3D Plot](images/image-generation/3d-plot.png)      | ![Mandlebrot](images/image-generation/mandleprod.png)  | ![Box Plot](images/image-generation/r_pentomino_300_loop.gif) |
+
 
 <details>
-  <summary>⤵️ Image and chart generation examples ⤵️</summary>
+  <summary>⤵️ More image and chart generation examples ⤵️</summary>
   
 | Title                     | Image                                                                           |
 |---------------------------|---------------------------------------------------------------------------------|
-| 3D Plot                   | ![3D Plot](images/image-generation/3d-plot.png)                                 |
 | Box Plot                  | ![Box Plot](images/image-generation/box-plot.png)                               |
 | Cluster Map               | ![Cluster Map](images/image-generation/cluster-map.png)                         |
 | Confusion Matrix          | ![Confusion Matrix](images/image-generation/confusion-matrix.png)               |
 | Histogram                 | ![Histogram](images/image-generation/histogram.png)                             |
 | Line Plot                 | ![Line Plot](images/image-generation/line-plot.png)                             |
-| Mandleprod                | ![Mandleprod](images/image-generation/mandleprod.png)                           |
 | Map                       | ![Map](images/image-generation/map.png)                                         |
 | Network Graph             | ![Network Graph](images/image-generation/network-graph.png)                     |
 | Radar Chart               | ![Radar Chart](images/image-generation/radar-chart.png)                         |
