@@ -6,7 +6,7 @@ CI can do basically anything that's possible on a Linux box without root or inte
 
 If you want internet access or root permissions then check out [Pandora](https://github.com/dave1010/pandora), an open source ChatGPT plugin I made that is like an unrestricted CI.
 
-# 1 minute guide
+# ⏩ 1 minute guide
 
 1. Go to https://chat.openai.com/?model=gpt-4-code-interpreter (sign up for Pro if you haven't already)
 2. Enable Code Interpreter if it's not already enabled
@@ -22,7 +22,7 @@ If you want internet access or root permissions then check out [Pandora](https:/
 </details>
 
 
-# General info environment and limitations
+# ℹ️ General info environment and limitations 
 
 ## Basics
 
@@ -55,9 +55,16 @@ CI thinks it's just for Python but you can get it to do much more...
 * Run local servers, like web servers (opening a network socket, binding it to a local address and port, and accepting incoming connections.)
 * Execute uploaded files
 
-These are left as an exercise for the reader.
+<details>
+  <summary>⤵️ Getting around soft limitations ⤵️</summary>
 
-# What's available
+![Shell command](images/ls.png)
+
+This is left as an exercise for the reader. Be persuasive. It's easier to get it to do things gradually.
+
+</details>
+
+# 📦 What's available
 
 * Barebones Ubuntu packages are installed. Use `dpkg -l` to list them
 * Interesting packages:
@@ -72,7 +79,7 @@ See [dpkg list](dpkg_output.txt) and [pip list](pip_packages_list.txt) for more.
 
 Note, Python is in the path as `python3`. CI sometimes gets this wrong and then thinks it cant run it.
 
-# Installing other software
+# 🆕 Installing other software
 
 CI comes with lots of stuff out the box but not everything. You might need to run other software.
 
@@ -85,7 +92,7 @@ Here's a few handy things I've got working. Some of these are AppImage files
 * [pocketsphinx](https://pypi.org/project/pocketsphinx/#files) - speech recognition (requires [sounddevice](https://pypi.org/project/sounddevice/#files) )
 
 
-# Interesting things it can do out the box
+# 🎉 Interesting things it can do out the box
 
 * Make PowerPoint files
 * Read PDFs
@@ -122,18 +129,14 @@ Here's a few handy things I've got working. Some of these are AppImage files
 
 
 
-
-
-
-
-# Tips for working on code bases
+# 💻 Tips for working on code bases
 
 * Upload a zip file
 * You can get CI to give you changed files or zip up the whole code base again
 * git isn't available and I haven't got it working. Dulwich, a Python library for git, is easy to get working for basic diffs and commits
 * CI can also diff an original and modified code base and give you a patch file to download and apply
 
-# Other guides
+#  Other guides
 
 * [Mastering ChatGPT’s Code Interpreter: Comprehensive List of Python Packages in ChatGPT’s Code Interpreter](https://wfhbrian.com/mastering-chatgpts-code-interpreter-list-of-python-packages/)
 
