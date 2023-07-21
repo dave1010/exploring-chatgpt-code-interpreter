@@ -9,8 +9,17 @@ If you want internet access or root permissions then check out [Pandora](https:/
 # 1 minute guide
 
 1. Go to https://chat.openai.com/?model=gpt-4-code-interpreter (sign up for Pro if you haven't already)
-2. Click on your name on the bottom left, then Settings & Beta, then Beta features, then enable Code Interpreter.
+2. Enable Code Interpreter if it's not already enabled
 3. Copy and paste this prompt: `List various cool and helpful things the code interpreter model can do. Then pick a couple and demo them to me. Make it really interesting.`
+
+
+<details>
+  <summary>Enabling ChatGPT Code Interpreter</summary>
+  | Click on your name on the bottom left, then Settings & Beta | then Beta features, then enable Code Interpreter |
+| --- | --- |
+| ![menu](images/menu.png) | ![settings](images/settings.png) |
+</details>
+
 
 # General info environment and limitations
 
