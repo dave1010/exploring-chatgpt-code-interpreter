@@ -38,7 +38,11 @@ If you want internet access or root permissions then check out [Pandora](https:/
 
 * Current working dir: `/home/sandbox`. It doesn't know this unless you ask it to run `pwd`. Sometimes it thinks files are in `/mnt/data` when they're not.
 * User `sandbox`
-* Arch: `amd64`
+* Arch: `x86_64`
+* Linux Kernel: `4.4`
+  * ⚠️ This kernel is from 2016. It still runs most things but you may encounter issues
+  * Missing modern things like : `io_uring`, `memfd_create`, `statx`, `copy_file_range`, `openat2` ☹️
+* OS: Ubuntu 20.04.6 LTS
 
 ## Hard limitations
 
