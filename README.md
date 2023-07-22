@@ -90,11 +90,16 @@ CI doesn't give you root access but you can still run statically linked binaries
 
 Here's a few handy things I've got working.
 
-* [Deno](https://github.com/denoland/deno/releases) (JavaScript runtime, like Node))
 * [ImageMagick](https://imagemagick.org/archive/binaries/) (magick)
 * [PHP](https://github.com/scorninpc/php-gtk3/releases) (actually PHP-GTK3 but I haven't found another version that works yet)
 * [Python 3.11](https://github.com/niess/python-appimage/releases) - CI comes with Python 3.8. Some packages only work with later verions like 3.11
 * [pocketsphinx](https://pypi.org/project/pocketsphinx/#files) - speech recognition (requires [sounddevice](https://pypi.org/project/sounddevice/#files) )
+
+
+## Running JavaScript code
+
+Node.js may be a bit much but you can easily get [Deno]([https://deno.land/](https://github.com/denoland/deno/releases)) working,
+which is a lightweight JavaScript runtime, also based on the V8 JS engine.
 
 ## Running AppImages
 
